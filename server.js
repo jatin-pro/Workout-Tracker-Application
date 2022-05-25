@@ -30,5 +30,5 @@ app.get("*", function (request, response) {
 });
 
 app.listen(PORT , () => { 
-  console.log(`app is running on localhost:${PORT}`); 
+  console.log(`app is running on :${PORT}`); 
 }); 
